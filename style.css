@@ -1,0 +1,105 @@
+/* 
+
+
+SPACING SYSTEM (px): 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+FONT SIZE SYSTEM (px): 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Rubik:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Merriweather', 'Rubik', sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #333;
+    overflow-x: hidden;
+    background-color: #ffd43bcc;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    margin: 9.6rem;
+    margin-bottom: 0rem;
+    padding: 0 4.8rem;
+    gap: 3.2rem;
+}
+
+h1{
+    font-size: 5.2rem;
+    font-weight: 700;
+}
+
+.header-text{
+    font-size: 3.0rem;
+    font-weight: 500;
+}
+
+.input-form{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3.6rem;
+    margin-left: 9.6rem;
+    padding: 4.8rem;
+    justify-content: center;
+}
+
+.image-input-button{
+    display: none;
+}
+
+.image-input-label{
+    display: block;
+    max-width: 20rem;
+    border: #555;
+    background-color: #e8590c;
+    font-size: 1.6rem;
+    padding: 1.6rem 3.2rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-input{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1.8rem;
+}
+
+.top-text-input, 
+.top-text-input select,
+.bottom-text-input, 
+.bottom-text-input select
+{
+    display: block;
+    width: 50rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 1.6rem 3.2rem;
+    border-radius: 0.8rem;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+
+.canvas {
+    margin-left: 9.6rem;
+    padding: 4.8rem;
+}
