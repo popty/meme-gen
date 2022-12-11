@@ -1,2 +1,2 @@
 # meme-gen
-Meme Generator
+A simple Meme Generator created using HTML, CSS and Javascript
